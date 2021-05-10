@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testind'
+                echo 'Testing'
             }
         }
         stage('Release') {
